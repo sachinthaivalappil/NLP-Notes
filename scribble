@@ -1,0 +1,33 @@
+Basic text preprocessing
+
+step 1: cleaning data
+
+Tokenization-->stop words--> stemming-->lemmatization
+
+Tokenization means coverting sentence into words
+
+removing stop words(words that are not importent)
+
+stemming - process of reducing words to its base stemming and extract rootword
+
+lemmatization - process of remapping words to its base stemmed stem words
+
+stemming can be used in spam classification, review classification
+
+lemmatization can be used for text classification, language transilation, chatbot
+
+step 2: word to vector 
+
+text processing --> words-->vectors
+
+1. one hot encoding 
+2. bag of words 
+3. TF-IDF
+4. word to vector
+
+basic terminologies used in NLP
+1. corpus
+2. document
+3. vocabulary
+4. words
+
