@@ -26,8 +26,42 @@ text processing --> words-->vectors
 4. word to vector
 
 basic terminologies used in NLP
-1. corpus
-2. document
-3. vocabulary
-4. words
+1. corpus-paragraphs
+2. document-sentences
+3. vocabulary- unique words
+4. words-words
+
+
+one hot encoding
+advantages:
+very simple to implement
+intuitive
+
+disadvantages:
+sparse matrix
+out of vocabulary : can not handle newdata
+not fixed size: size vector for each document vary
+semantic meaning between words is not captured
+
+
+Bag of words
+creating vector based on the frequency of the words in a document
+
+advantages
+simple and intuitive
+
+disvantages
+sparsity
+out of vocbulary
+ordering of the words changed
+not able to capture symantic meaning
+
+Ngrams(bigram,trigram)
+
+
+
+
+
+
+ 
 
